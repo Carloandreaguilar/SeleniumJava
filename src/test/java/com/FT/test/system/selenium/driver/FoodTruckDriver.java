@@ -16,7 +16,7 @@ import com.sun.javafx.geom.Edge;
 
 public class FoodTruckDriver {
 
-private static final String URL_HUB = "http://localhost:8090/list";
+private static final String URL_HUB = "http://localhost:8090/";
 	
 	public final static WebDriver inicializarDriver(String navegador, boolean remoto) {
 		WebDriver webDriver = null;
