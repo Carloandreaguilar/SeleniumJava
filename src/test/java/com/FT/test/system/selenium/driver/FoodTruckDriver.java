@@ -16,7 +16,7 @@ import com.sun.javafx.geom.Edge;
 
 public class FoodTruckDriver {
 
-private static final String URL_HUB = "http://localhost:8090/";
+private static final String URL_HUB = "http://localhost:4445/wd/hub";
 	
 	public final static WebDriver inicializarDriver(String navegador, boolean remoto) {
 		WebDriver webDriver = null;
@@ -43,14 +43,14 @@ private static final String URL_HUB = "http://localhost:8090/";
 					webDriver = new ChromeDriver();
 				}
 				break;
-			case "iexplorer":
+			case "edge":
 				if(remoto){
 					URL server = new URL(URL_HUB);
 					DesiredCapabilities capabilities=DesiredCapabilities.internetExplorer();
 				    webDriver = new RemoteWebDriver(server, capabilities);
 				}else{
-					System.setProperty("webdriver.ie.driver", "C:\\Users\\User\\Downloads\\IEDriverServer.exe");
-					webDriver = new InternetExplorerDriver();
+					System.setProperty("webdriver.ie.driver", "C:\\Windows\\system32\\MicrosoftWebDriver.exe");
+					webDriver = new EdgeDriver();
 				}
 				break;
 			}

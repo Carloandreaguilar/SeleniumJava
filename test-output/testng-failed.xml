@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FoodTruckTestSuite]">
+  <test thread-count="5" name="InsertarFoodTruckEdge(failed)">
+    <parameter name="testlinkIdNavegador" value="3"/>
+    <parameter name="navegador" value="edge"/>
+    <parameter name="testlinkNombreNavegador" value="Edge"/>
+    <parameter name="remoto" value="0"/>
+    <parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\InsertarFoodTruck.xlsx"/>
+    <classes>
+      <class name="com.FT.test.system.selenium.testcase.InsertarFoodTruck">
+        <methods>
+          <include name="antesDelTest"/>
+          <include name="insertarfoodTruck" invocation-numbers="0"/>
+          <include name="despuesDelTest"/>
+        </methods>
+      </class> <!-- com.FT.test.system.selenium.testcase.InsertarFoodTruck -->
+    </classes>
+  </test> <!-- InsertarFoodTruckEdge(failed) -->
+  <test thread-count="5" name="EditarFoodTruckEdge(failed)">
+    <parameter name="testlinkIdNavegador" value="3"/>
+    <parameter name="navegador" value="edge"/>
+    <parameter name="testlinkNombreNavegador" value="Edge"/>
+    <parameter name="remoto" value="0"/>
+    <parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EditarFoodTruck.xlsx"/>
+    <classes>
+      <class name="com.FT.test.system.selenium.testcase.EditarFoodTruck">
+        <methods>
+          <include name="despuesDelTest"/>
+          <include name="antesDelTest"/>
+          <include name="insertarfoodTruck" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.FT.test.system.selenium.testcase.EditarFoodTruck -->
+    </classes>
+  </test> <!-- EditarFoodTruckEdge(failed) -->
+  <test thread-count="5" name="EliminarFoodTruckEdge(failed)">
+    <parameter name="testlinkIdNavegador" value="3"/>
+    <parameter name="navegador" value="edge"/>
+    <parameter name="testlinkNombreNavegador" value="Edge"/>
+    <parameter name="remoto" value="0"/>
+    <parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EliminarFoodTruck.xlsx"/>
+    <classes>
+      <class name="com.FT.test.system.selenium.testcase.EliminarFoodTruck">
+        <methods>
+          <include name="antesDelTest"/>
+          <include name="insertarfoodTruck" invocation-numbers="0"/>
+          <include name="despuesDelTest"/>
+        </methods>
+      </class> <!-- com.FT.test.system.selenium.testcase.EliminarFoodTruck -->
+    </classes>
+  </test> <!-- EliminarFoodTruckEdge(failed) -->
+</suite> <!-- Failed suite [FoodTruckTestSuite] -->

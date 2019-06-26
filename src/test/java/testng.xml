@@ -1,18 +1,115 @@
-
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="FoodTruckTestSuite">
 	
     
 		
-	<test name="RegistrarProveedorChrome">
+	<test name="InsertarFoodTruckFireFox">
+		<parameter name="testlinkIdNavegador" value="1"/>
+		<parameter name="testlinkNombreNavegador" value="FireFox"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\InsertarFoodTruck.xlsx" />
+		<parameter name="navegador" value="firefox" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.InsertarFoodTruck"
+			/>
+		</classes>
+	</test>
+	
+		<test name="EditarFoodTruckFireFox">
+		<parameter name="testlinkIdNavegador" value="1"/>
+		<parameter name="testlinkNombreNavegador" value="FireFox"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EditarFoodTruck.xlsx" />
+		<parameter name="navegador" value="firefox" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.EditarFoodTruck"
+			/>
+		</classes>
+	</test>
+	
+		<test name="EliminarFoodTruckFireFox">
+		<parameter name="testlinkIdNavegador" value="1"/>
+		<parameter name="testlinkNombreNavegador" value="FireFox"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EliminarFoodTruck.xlsx" />
+		<parameter name="navegador" value="firefox" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.EliminarFoodTruck"
+			/>
+		</classes>
+	</test>
+	
+<test name="InsertarFoodTruckChrome">
 		<parameter name="testlinkIdNavegador" value="2"/>
 		<parameter name="testlinkNombreNavegador" value="Chrome"/>
 		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\InsertarFoodTruck.xlsx" />
 		<parameter name="navegador" value="chrome" />
 		<parameter name="remoto" value="0" />
 		<classes>
-			<class name="com.FT.test.system.selenium.testcase.InsertarFoodTruckTest"/>
+			<class name="com.FT.test.system.selenium.testcase.InsertarFoodTruck"
+			/>
 		</classes>
 	</test>
 	
+	<test name="EditarFoodTruckChrome">
+		<parameter name="testlinkIdNavegador" value="2"/>
+		<parameter name="testlinkNombreNavegador" value="Chrome"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EditarFoodTruck.xlsx" />
+		<parameter name="navegador" value="chrome" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.EditarFoodTruck"
+			/>
+		</classes>
+	</test>
+	
+	<test name="EliminarFoodTruckChrome">
+		<parameter name="testlinkIdNavegador" value="2"/>
+		<parameter name="testlinkNombreNavegador" value="Chrome"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EliminarFoodTruck.xlsx" />
+		<parameter name="navegador" value="chrome" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.EliminarFoodTruck"
+			/>
+		</classes>
+	</test>
+	<!-- 
+	<test name="InsertarFoodTruckEdge">
+		<parameter name="testlinkIdNavegador" value="3"/>
+		<parameter name="testlinkNombreNavegador" value="Edge"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\InsertarFoodTruck.xlsx" />
+		<parameter name="navegador" value="edge" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.InsertarFoodTruck"
+			/>
+		</classes>
+	</test>
+	
+	<test name="EditarFoodTruckEdge">
+		<parameter name="testlinkIdNavegador" value="3"/>
+		<parameter name="testlinkNombreNavegador" value="Edge"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EditarFoodTruck.xlsx" />
+		<parameter name="navegador" value="edge" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.EditarFoodTruck"
+			/>
+		</classes>
+	</test>
+	
+	<test name="EliminarFoodTruckEdge">
+		<parameter name="testlinkIdNavegador" value="3"/>
+		<parameter name="testlinkNombreNavegador" value="Edge"/>
+		<parameter name="rutaArchivoExcel" value="C:\Users\User\Downloads\EliminarFoodTruck.xlsx" />
+		<parameter name="navegador" value="edge" />
+		<parameter name="remoto" value="0" />
+		<classes>
+			<class name="com.FT.test.system.selenium.testcase.EliminarFoodTruck"
+			/>
+		</classes>
+	</test>
+	 -->
 	
 </suite>

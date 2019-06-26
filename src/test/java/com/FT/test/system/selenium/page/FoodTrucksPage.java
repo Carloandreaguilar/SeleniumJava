@@ -14,6 +14,7 @@ public class FoodTrucksPage {
 	private By latitude = By.id("latitude");
 	private By longitude = By.id("longitude");
 	private By saveButton = By.id("saveButton");
+	private By logoutButton = By.id("logoutButton");
 	//private By mensajeRespuesta = By.id("message");
 	private By linkDelete = By.xpath("/html/body/div/div/div[2]/div/table/tbody/tr[1]/td[7]/a");
 	private By linkEdit = By.xpath("/html/body/div/div/div[2]/div/table/tbody/tr[1]/td[6]/a");
@@ -62,10 +63,16 @@ public class FoodTrucksPage {
 //		return this.webDriver.findElement(mensajeRespuesta).getText();
 	}
 	
+	public String hacerClickBotonLogout() throws InterruptedException {
+		webDriver.findElement(logoutButton).click();
+		return "sesion cerrada";
+		//return this.webDriver.findElement(mensajeRespuesta).getText();
+	}
+	
 	public String hacerClickBotonEliminar() throws InterruptedException{
 		webDriver.findElement(linkDelete).click();
 		Thread.sleep(2000);
-		return "eliminado";
+		return "Exito: Se Elimino correctamente el FoodTruck!";
 //		return webDriver.findElement(mensajeRespuesta).getText();
 	}
 	

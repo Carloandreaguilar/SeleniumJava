@@ -19,7 +19,9 @@ public class IniciarSesionPage {
 	}
 	
 	public void ingresarPaginaIniciarSesion(String url) throws Exception{
-		this.webDriver.get(url);
+		System.out.println(url);
+		webDriver.get(url);
+		
 	}
 	
 	public void iniciarSesion(String usuario, String clave) throws Exception{

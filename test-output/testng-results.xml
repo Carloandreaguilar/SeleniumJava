@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FoodTruckTestSuite" duration-ms="129246" started-at="2019-06-26T06:42:02Z" finished-at="2019-06-26T06:44:11Z">
+    <groups>
+    </groups>
+    <test name="InsertarFoodTruckFireFox" duration-ms="36251" started-at="2019-06-26T06:42:02Z" finished-at="2019-06-26T06:42:38Z">
+      <class name="com.FT.test.system.selenium.testcase.InsertarFoodTruck">
+        <test-method status="PASS" signature="antesDelTest(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.InsertarFoodTruck@5c3bd550]" name="antesDelTest" is-config="true" duration-ms="17332" started-at="2019-06-26T06:42:02Z" finished-at="2019-06-26T06:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelTest -->
+        <test-method status="PASS" signature="insertarfoodTruck(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.InsertarFoodTruck@5c3bd550]" name="insertarfoodTruck" duration-ms="15175" started-at="2019-06-26T06:42:23Z" data-provider="DatosDeEntrada" finished-at="2019-06-26T06:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[insertarFT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sushi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sushi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACT]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[guardado]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarfoodTruck -->
+        <test-method status="PASS" signature="despuesDelTest()[pri:0, instance:com.FT.test.system.selenium.testcase.InsertarFoodTruck@5c3bd550]" name="despuesDelTest" is-config="true" duration-ms="330" started-at="2019-06-26T06:42:38Z" finished-at="2019-06-26T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelTest -->
+      </class> <!-- com.FT.test.system.selenium.testcase.InsertarFoodTruck -->
+    </test> <!-- InsertarFoodTruckFireFox -->
+    <test name="EditarFoodTruckFireFox" duration-ms="22074" started-at="2019-06-26T06:42:39Z" finished-at="2019-06-26T06:43:01Z">
+      <class name="com.FT.test.system.selenium.testcase.EditarFoodTruck">
+        <test-method status="PASS" signature="antesDelTest(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EditarFoodTruck@589838eb]" name="antesDelTest" is-config="true" duration-ms="12002" started-at="2019-06-26T06:42:39Z" finished-at="2019-06-26T06:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelTest -->
+        <test-method status="PASS" signature="insertarfoodTruck(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EditarFoodTruck@589838eb]" name="insertarfoodTruck" duration-ms="9477" started-at="2019-06-26T06:42:51Z" data-provider="DatosDeEntrada" finished-at="2019-06-26T06:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[editarFT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[PIZZA PLACE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pizza]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACT]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[guardado]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarfoodTruck -->
+        <test-method status="PASS" signature="despuesDelTest()[pri:0, instance:com.FT.test.system.selenium.testcase.EditarFoodTruck@589838eb]" name="despuesDelTest" is-config="true" duration-ms="277" started-at="2019-06-26T06:43:00Z" finished-at="2019-06-26T06:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelTest -->
+      </class> <!-- com.FT.test.system.selenium.testcase.EditarFoodTruck -->
+    </test> <!-- EditarFoodTruckFireFox -->
+    <test name="EliminarFoodTruckFireFox" duration-ms="19087" started-at="2019-06-26T06:43:01Z" finished-at="2019-06-26T06:43:20Z">
+      <class name="com.FT.test.system.selenium.testcase.EliminarFoodTruck">
+        <test-method status="PASS" signature="antesDelTest(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EliminarFoodTruck@73ad2d6]" name="antesDelTest" is-config="true" duration-ms="8161" started-at="2019-06-26T06:43:01Z" finished-at="2019-06-26T06:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelTest -->
+        <test-method status="PASS" signature="insertarfoodTruck(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EliminarFoodTruck@73ad2d6]" name="insertarfoodTruck" duration-ms="7060" started-at="2019-06-26T06:43:09Z" data-provider="DatosDeEntrada" finished-at="2019-06-26T06:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eliminarFT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Exito: Se Elimino correctamente el FoodTruck!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarfoodTruck -->
+        <test-method status="PASS" signature="despuesDelTest()[pri:0, instance:com.FT.test.system.selenium.testcase.EliminarFoodTruck@73ad2d6]" name="despuesDelTest" is-config="true" duration-ms="3767" started-at="2019-06-26T06:43:16Z" finished-at="2019-06-26T06:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelTest -->
+      </class> <!-- com.FT.test.system.selenium.testcase.EliminarFoodTruck -->
+    </test> <!-- EliminarFoodTruckFireFox -->
+    <test name="InsertarFoodTruckChrome" duration-ms="13807" started-at="2019-06-26T06:43:20Z" finished-at="2019-06-26T06:43:34Z">
+      <class name="com.FT.test.system.selenium.testcase.InsertarFoodTruck">
+        <test-method status="PASS" signature="antesDelTest(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.InsertarFoodTruck@5f2108b5]" name="antesDelTest" is-config="true" duration-ms="3528" started-at="2019-06-26T06:43:20Z" finished-at="2019-06-26T06:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelTest -->
+        <test-method status="PASS" signature="insertarfoodTruck(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.InsertarFoodTruck@5f2108b5]" name="insertarfoodTruck" duration-ms="9747" started-at="2019-06-26T06:43:24Z" data-provider="DatosDeEntrada" finished-at="2019-06-26T06:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[insertarFT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sushi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sushi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACT]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[guardado]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarfoodTruck -->
+        <test-method status="PASS" signature="despuesDelTest()[pri:0, instance:com.FT.test.system.selenium.testcase.InsertarFoodTruck@5f2108b5]" name="despuesDelTest" is-config="true" duration-ms="440" started-at="2019-06-26T06:43:33Z" finished-at="2019-06-26T06:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelTest -->
+      </class> <!-- com.FT.test.system.selenium.testcase.InsertarFoodTruck -->
+    </test> <!-- InsertarFoodTruckChrome -->
+    <test name="EditarFoodTruckChrome" duration-ms="17785" started-at="2019-06-26T06:43:34Z" finished-at="2019-06-26T06:43:52Z">
+      <class name="com.FT.test.system.selenium.testcase.EditarFoodTruck">
+        <test-method status="PASS" signature="antesDelTest(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EditarFoodTruck@72d818d1]" name="antesDelTest" is-config="true" duration-ms="5413" started-at="2019-06-26T06:43:34Z" finished-at="2019-06-26T06:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelTest -->
+        <test-method status="PASS" signature="insertarfoodTruck(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EditarFoodTruck@72d818d1]" name="insertarfoodTruck" duration-ms="11688" started-at="2019-06-26T06:43:39Z" data-provider="DatosDeEntrada" finished-at="2019-06-26T06:43:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[editarFT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[PIZZA PLACE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pizza]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACT]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[guardado]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarfoodTruck -->
+        <test-method status="PASS" signature="despuesDelTest()[pri:0, instance:com.FT.test.system.selenium.testcase.EditarFoodTruck@72d818d1]" name="despuesDelTest" is-config="true" duration-ms="629" started-at="2019-06-26T06:43:51Z" finished-at="2019-06-26T06:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelTest -->
+      </class> <!-- com.FT.test.system.selenium.testcase.EditarFoodTruck -->
+    </test> <!-- EditarFoodTruckChrome -->
+    <test name="EliminarFoodTruckChrome" duration-ms="19295" started-at="2019-06-26T06:43:52Z" finished-at="2019-06-26T06:44:11Z">
+      <class name="com.FT.test.system.selenium.testcase.EliminarFoodTruck">
+        <test-method status="PASS" signature="antesDelTest(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EliminarFoodTruck@56ef9176]" name="antesDelTest" is-config="true" duration-ms="5292" started-at="2019-06-26T06:43:52Z" finished-at="2019-06-26T06:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelTest -->
+        <test-method status="PASS" signature="insertarfoodTruck(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.FT.test.system.selenium.testcase.EliminarFoodTruck@56ef9176]" name="insertarfoodTruck" duration-ms="8306" started-at="2019-06-26T06:43:57Z" data-provider="DatosDeEntrada" finished-at="2019-06-26T06:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eliminarFT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Exito: Se Elimino correctamente el FoodTruck!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarfoodTruck -->
+        <test-method status="PASS" signature="despuesDelTest()[pri:0, instance:com.FT.test.system.selenium.testcase.EliminarFoodTruck@56ef9176]" name="despuesDelTest" is-config="true" duration-ms="5630" started-at="2019-06-26T06:44:06Z" finished-at="2019-06-26T06:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelTest -->
+      </class> <!-- com.FT.test.system.selenium.testcase.EliminarFoodTruck -->
+    </test> <!-- EliminarFoodTruckChrome -->
+  </suite> <!-- FoodTruckTestSuite -->
+</testng-results>
